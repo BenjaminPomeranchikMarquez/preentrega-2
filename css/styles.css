@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* inicio  */
+/* header */
+.headerInicio{
+    background-image: url(../images/hojas\ de\ cannabis.jfif);
+}
+.headerInicio h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+} 
+.nav-inicio{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+}
+.nav-inicio ul{
+    list-style:none;
+    order: 3;
+}
+.nav-inicio li { 
+    padding: 5px;
+    display: inline; 
+}
+.nav-inicio a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-inicio img{
+    height: 130px;
+    width: 130px;
+}
+.nav-inicio a:hover{
+    color: #ccc;
+}
+/* main  */
+.bodyInicio{
+    background-color: #49fc73;
+}
+.materiales{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid #2fdda0;
+    border-radius: 10px;
+    background-color: #cdf3a7;
+}
+.materiales img{
+    height: 45vh;
+    width: 30%;
+    object-fit: cover;
+}
+.utilidad{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid #97f6bc;
+    border-radius: 10px;
+    background-color: #76bb9e;
+}
+.utilidad img{
+    height: 45vh;
+    width: 30%;
+    object-fit: cover;
+}
+/* productos  */
+/* header  */
+.nav-productos{
+    background-color: #60eea5;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-productos ul{
+    order: 3;
+    list-style: none;
+}
+.nav-productos li {
+    display: inline;
+    padding: 5px;
+}
+.nav-productos a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-productos img{
+    height: 130px;
+    width: 130px;
+}
+.nav-productos h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    align-self: flex-end;
+}
+/* main  */
+.products{
+    background-color: #83baed;
+    padding: 30px;
+    
+}
+.products_body img{
+width: 100%;
+height: 500px;
+object-fit: repeat;
+border-radius: 15px 15px 0 0;
+}
+.products_body{
+    display: inline-block;
+    width: 30%;
+    background-color: #eee;
+    margin: 15px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+.products_body ul{
+    list-style: none;
+}
+.products_body h2 , .products_body h3 , .products_body ul , .products_body p{
+    text-align: left;
+}
+/* sobre nosotros  */
+/* header */
+.header-about{
+    background-color: #60cbde;
+}
+.nav-about{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-about ul{
+    order: 3;
+    list-style: none;
+}
+.nav-about li {
+    display: inline;
+    padding: 5px;
+}
+.nav-about a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-about img{
+    height: 130px;
+    width: 130px;
+}
+.nav-about h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    align-self: flex-end;
+}
+.header-about p{
+    text-align: center;
+    color: #eee;
+    font-size: 30px;
+}
+/* main  */
+.aboutUs{
+    color: #000;
+}
+.aboutUsP1{
+    font-weight: bold;
+}
+.aboutUs p{
+    font-size: 20px;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutUs h2{
+    font-size: 40px;
+    margin: 10px;
+}
+.bodyAbout{
+    background-color: #ACECDF;
+}
+/* blog  */
+/* header  */
+.nav-blog{
+    background-color: #31b0cd;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-blog ul{
+    order: 3;
+    list-style: none;
+}
+.nav-blog li {
+    display: inline;
+    padding: 5px;
+}
+.nav-blog a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-blog img{
+    height: 130px;
+    width: 130px;
+}
+.nav-blog h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+}
+/* main  */
+.body-blog{
+    background-color: rgba(145, 79, 245, 0.706);
+}
+.section-blog h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section-blog h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding: 5px;
+}
+.section-blog p{
+    font-size: large;
+    text-align: left;
+    padding-left: 5px;
+}
+.blog-rest{
+    text-align: center;
+    border: 5px solid #af0add;
+    border-radius: 20px;
+    margin: 5px;
+}
+.blog-rest img{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 5px;
+}
+.blog-sports{
+    text-align: center;
+    border: 5px solid #9d0bc5;
+    border-radius: 20px;
+    margin: 5px;
+}
+.blog-sports img{
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 5px;
+}
+ /* contacto  */
+/* header */
+.nav-contacto{
+    background-color: #0b72a6;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-contacto ul{
+    order: 3;
+    list-style: none;
+}
+.nav-contacto li {
+    display: inline;
+    padding: 5px;
+}
+.nav-contacto a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-contacto img{
+    height: 130px;
+    width: 130px;
+}
+.nav-contacto h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: underline;
+    align-self: flex-end;
+} 
+/* main  */
+.contact-body{
+    background-color: #ccc;
+}
+.formulario{
+    padding: 30px;
+    text-align: left;
+}
+.nombre{
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.apellido{
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email{
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto{
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mensaje-label{
+    display: block;
+}
+.contact-section{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+
+/* footer */
+footer{
+    background-color: #0a0b0c;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+}
+.social-net{
+    display: inline-block;
+}
+.instagram{
+    display: inline-block;
+}
+.facebook{
+    display: inline-block;
+}
+.instagram img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.facebook img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
