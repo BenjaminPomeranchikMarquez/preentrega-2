@@ -8,21 +8,23 @@
     background-image: url(../images/hojas\ de\ cannabis.jfif);
 }
 .headerInicio h1{
-    font-size: 70px;
+    font-size: 100px;
     font-weight: bold;
     color: #fff;
     height: 200px;
     width: 100%;
     text-align: center;
+    margin-top: 100px;
 } 
 .nav-inicio{
     display: flex;
     justify-content: space-between;
-    background-color: #eee;
+    background-color: #000;
 }
 .nav-inicio ul{
     list-style:none;
     order: 3;
+    align-self: center;
 }
 .nav-inicio li { 
     padding: 5px;
@@ -31,7 +33,7 @@
 .nav-inicio a{
     text-decoration: none;
     color:#fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 .nav-inicio img{
@@ -77,14 +79,27 @@
 }
 /* productos  */
 /* header  */
-.nav-productos{
+.header-products{
     background-color: #60eea5;
+}
+.header-products h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.nav-productos{
     display: flex;
     justify-content: space-between;
+    background-color: #000;
 }
 .nav-productos ul{
     order: 3;
     list-style: none;
+    align-self: center;
 }
 .nav-productos li {
     display: inline;
@@ -93,25 +108,20 @@
 .nav-productos a{
     text-decoration: none;
     color:#fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 .nav-productos img{
     height: 130px;
     width: 130px;
 }
-.nav-productos h1{
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    color: #fff;
-    align-self: flex-end;
-}
 /* main  */
 .products{
     background-color: #83baed;
     padding: 30px;
-    
+    /* display: grid;
+    grid-template-columns: repeat(3,90%);
+    grid-template-rows: auto; */
 }
 .products_body img{
 width: 100%;
@@ -120,31 +130,42 @@ object-fit: repeat;
 border-radius: 15px 15px 0 0;
 }
 .products_body{
-    display: inline-block;
     width: 30%;
     background-color: #eee;
     margin: 15px;
     border-radius: 13px;
     box-shadow: 2px 2px 2px 2px #000;
+    display: inline-block;
 }
 .products_body ul{
     list-style: none;
-}
-.products_body h2 , .products_body h3 , .products_body ul , .products_body p{
-    text-align: left;
 }
 /* sobre nosotros  */
 /* header */
 .header-about{
     background-color: #60cbde;
 }
+.header-about h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 100px;
+}
+.header-about p{
+    text-align: center;
+    color: #eee;
+    font-size: 30px;
+}
 .nav-about{
     display: flex;
     justify-content: space-between;
+    background-color: #000;
 }
 .nav-about ul{
     order: 3;
     list-style: none;
+    align-self: center;
 }
 .nav-about li {
     display: inline;
@@ -153,24 +174,12 @@ border-radius: 15px 15px 0 0;
 .nav-about a{
     text-decoration: none;
     color:#fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 .nav-about img{
     height: 130px;
     width: 130px;
-}
-.nav-about h1{
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    color: #fff;
-    align-self: flex-end;
-}
-.header-about p{
-    text-align: center;
-    color: #eee;
-    font-size: 30px;
 }
 /* main  */
 .aboutUs{
@@ -193,14 +202,27 @@ border-radius: 15px 15px 0 0;
 }
 /* blog  */
 /* header  */
-.nav-blog{
+.header-blog{
     background-color: #31b0cd;
+}
+.header-blog h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    height: 200px;
+}
+.nav-blog{
     display: flex;
     justify-content: space-between;
+    background-color: #000;
 }
 .nav-blog ul{
     order: 3;
     list-style: none;
+    align-self: center;
 }
 .nav-blog li {
     display: inline;
@@ -209,20 +231,12 @@ border-radius: 15px 15px 0 0;
 .nav-blog a{
     text-decoration: none;
     color:#fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 .nav-blog img{
     height: 130px;
     width: 130px;
-}
-.nav-blog h1{
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    align-self: flex-end;
 }
 /* main  */
 .body-blog{
@@ -275,14 +289,27 @@ border-radius: 15px 15px 0 0;
 }
  /* contacto  */
 /* header */
-.nav-contacto{
+.header-contacto{
     background-color: #0b72a6;
+}
+.header-contacto h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 100px;
+    height: 200px;
+} 
+.nav-contacto{
     display: flex;
     justify-content: space-between;
+    background-color: #000;
 }
 .nav-contacto ul{
     order: 3;
     list-style: none;
+    align-self: center;
 }
 .nav-contacto li {
     display: inline;
@@ -291,21 +318,13 @@ border-radius: 15px 15px 0 0;
 .nav-contacto a{
     text-decoration: none;
     color:#fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 .nav-contacto img{
     height: 130px;
     width: 130px;
 }
-.nav-contacto h1{
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: underline;
-    align-self: flex-end;
-} 
 /* main  */
 .contact-body{
     background-color: #ccc;
