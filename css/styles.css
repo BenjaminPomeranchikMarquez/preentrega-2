@@ -372,26 +372,20 @@ border-radius: 15px 15px 0 0;
 footer{
     background-color: #0a0b0c;
     color: #fff;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .social-net{
-    display: inline-block;
+    display: flex;
+    font-size: 30px;
 }
-.instagram{
-    display: inline-block;
+.bi{
+    padding-right: 15px;
+    color: #fff;
 }
-.facebook{
-    display: inline-block;
-}
-.instagram img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-}
-.facebook img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
+.bi:hover{
+    color: #0d6efd;
 }
