@@ -258,8 +258,6 @@
 }
 .blog-rest{
     text-align: center;
-    border: 5px solid #af0add;
-    border-radius: 20px;
     margin: 5px;
 }
 .blog-rest img{
@@ -271,8 +269,6 @@
 }
 .blog-sports{
     text-align: center;
-    border: 5px solid #9d0bc5;
-    border-radius: 20px;
     margin: 5px;
 }
 .blog-sports img{
