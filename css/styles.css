@@ -33,11 +33,12 @@
     color: #ccc;
 }
 /* main  */
-.bodyInicio{
-    background-color: #49fc73;
+.mainInicio{
+    background-color: #99d7f6;
 }
 .title-inicio-container{
-    background-image: url(../images/hojas\ de\ cannabis.jfif);
+    background-image: url(../images/fondo\ de\ falopa.avif);
+    opacity: 0.9;
 }
 .title-inicio-container h1{
     font-size: 100px;
@@ -53,7 +54,6 @@
     font-size: 20px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #cdf3a7;
 }
 .materiales img{
     height: 45vh;
@@ -65,7 +65,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #76bb9e;
+    background-color: #7adbe8;
 }
 .utilidad img{
     height: 45vh;
@@ -99,6 +99,9 @@
     width: 130px;
 }
 /* main  */
+.products-main{
+    background-color: #83baed;
+}
 .title-products-container{
     background-color: #60eea5;
 }
@@ -112,8 +115,10 @@
     padding-top: 100px;
 }
 .products{
-    background-color: #83baed;
     padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    gap: 30px;
 }
 .products_body img{
     width: 100%;
@@ -122,15 +127,11 @@
     border-radius: 15px 15px 0 0;
 }
 .products_body{
-    width: 30%;
+    width: 330px;
     background-color: #eee;
-    margin: 15px;
+    margin-left: 80px;
     border-radius: 13px;
     box-shadow: 2px 2px 2px 2px #000;
-    display: inline-block;
-}
-.products_body ul{
-    list-style: none;
 }
 /* sobre nosotros  */
 /* header */
@@ -159,6 +160,9 @@
     width: 130px;
 }
 /* main  */
+.bodyAbout{
+    background-color: #ACECDF;
+}
 .title-about-container{
     background-color: #60cbde;
     display: flex;
@@ -191,9 +195,6 @@
 .aboutUs h2{
     font-size: 40px;
     margin: 10px;
-}
-.bodyAbout{
-    background-color: #ACECDF;
 }
 /* blog  */
 /* header  */
@@ -339,27 +340,25 @@
 .formulario{
     padding: 30px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 .nombre{
-    display: block;
     margin: 20px;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .apellido{
-    display: block;
     margin: 20px;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .email{
-    display: block;
     margin: 20px;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .texto{
-    display: block;
     margin: 20px;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
