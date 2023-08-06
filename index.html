@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- link iconos de bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- link al css -->
     <link rel="stylesheet" href="css/styles.css">
     <title>ARhemp</title>
 </head>
@@ -32,23 +35,48 @@
         </div>
         <!-- section materiales:de que esta hecho -->
         <section class="materiales">
-            <h2>¿De que esta hecho?</h2>
-            <p>
-                El aceite de CBD esta hecho por materiales completamentes organicos y naturales.El aceite es testeado en laboratorios especializados y cuentan con análisis cromatográficos y el aceite no contiene derivados del trigo.
-            </p>
-            <img src="images/cbd.jpg" alt="CBD">
-            <img src="images/sin tacc.png" alt="Sin tacc">
-            <img src="images/microscopio.png" alt="Microscopio">
+            <div class="studies-info">
+                <img src="images/logo microscopio4.png" alt="Logo microscopio">
+                <h2>Testeado en Laboratorio</h2>
+                <p>Todos nuestros aceites cuentan con análisis cromatográficos que se realizan en laboratorios especializados.</p>
+            </div>
+            <div class="nature-info">
+                <img src="images/Nature conservation.png" alt="logo natural">
+                <h2>Natural</h2>
+                <p>Nuestro aceite de CBD es 100% natural y orgánico.</p>
+            </div>
+            <div class="components-info">
+                <img src="images/libre de gluten2.png" alt="logo libre de gluten">
+                <h2>Sin TACC</h2>
+                <p>No contiene derivados del trigo avena cebada y centeno.</p>
+            </div>
         </section>
         <!-- section utilidad -->
         <section class="utilidad">
-            <h2>¿Para que sirve?</h2>
-            <p>
-                El aceite de CBD ayuda a conciliar el sueño,la recuperacion fisica,prevenir artritis,relajacion y mas cosas en nuestro<a href="pages/blog.html"> blog</a>
-            </p>
-            <img src="images/dormir.jpg" alt="Persona durmiendo">
-            <img src="images/persona meditando.jpg" alt="Persona meditando">
-            <img src="images/chico-deportista-corriendo.jpg" alt="Persona corriendo">
+            <div class="recuperacion-info">
+                <img src="images/rakitic recuperandose.jpg" alt="Rakitic recuperandose" class="back-img">
+                <img src="images/plus-medical-regular-24.png" alt="logo recuperacion" class="over-icon recuperacion-icon">
+                <h2>Recuperación​</h2>
+                <p>El aceite de CBD puede ser de gran ayuda para facilitar la recuperación muscular por su propiedad antiinflamatoria, ayudando a prevenir los síntomas post-actividad y favorecer una recuperación más rápida.</p>
+            </div>
+            <div class="tranquilidad-info">
+                <img src="images/persona meditando.jpg" alt="Persona meditando" class="back-img">
+                <img src="images/meditacion.png" alt="logo meditando" class="over-icon meditacion-icon">
+                <h2>Tranquilidad​</h2>
+                <p>El aceite de CBD ayuda a combatir el estrés de forma natural gracias a sus efectos relajantes y ansiolíticos y no provoca los habituales efectos secundarios de los medicamentos.</p>
+            </div>
+            <div class="descanso-info">
+                <img src="images/dormir.jpg" alt="Persona durmiendo" class="back-img">
+                <i class="bi-moon-stars-fill over-icon"></i>
+                <h2>Descanso​</h2>
+                <p>El aceite de CBD presenta potencial como tratamiento para trastornos del sueño como el insomnio, la apnea del sueño, el síndrome de las piernas inquietas y las pesadillas relacionadas con el trastorno de estrés postraumático.</p>
+            </div>
+            <div class="alivio-info">
+                <img src="images/persona aliviada.jpg" alt="Persona tranquila" class="back-img">
+                <img src="images/alivio1.png" alt="logo alivio" class="over-icon alivio-icon">
+                <h2>Alivio​</h2>
+                <p>El CBD es un producto efectivo para desinflamar y aliviar el dolor, que puede usarse de forma segura y práctica. Por su propiedad antiinflamatoria el aceite de cannabis alivia todo tipo de dolores brindando una sensación de bienestar general.</p>
+            </div>
         </section>
     </main>
     <!-- footer -->
@@ -72,6 +100,7 @@
                 </a>
         </section>
     </footer>
+    <!-- script de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

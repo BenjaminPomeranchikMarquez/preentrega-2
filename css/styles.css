@@ -17,7 +17,7 @@
 }
 .nav-inicio li { 
     padding: 5px;
-    display: inline; 
+    display: inline;
 }
 .nav-inicio a{
     text-decoration: none;
@@ -29,12 +29,9 @@
     height: 130px;
     width: 130px;
 }
-.nav-inicio a:hover{
-    color: #ccc;
-}
 /* main  */
 .mainInicio{
-    background-color: #99d7f6;
+    background-color: #9dc0e0;
 }
 .title-inicio-container{
     background-image: url(../images/fondo\ de\ falopa.avif);
@@ -54,23 +51,71 @@
     font-size: 20px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 3em;
 }
 .materiales img{
-    height: 45vh;
-    width: 30%;
+    height: 100px;
+    width: 100px;
     object-fit: cover;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.materiales div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 0;
 }
 .utilidad{
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #7adbe8;
+    background-color: #a4d4f4;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    padding: 5px 10px;
 }
-.utilidad img{
-    height: 45vh;
-    width: 30%;
+.utilidad h2{
+    font-weight: bold;
+    text-align: center;
+}
+.utilidad div{
+    display: flex;
+    flex-direction: column;
+}
+.back-img{
+    height: 400px;
+    width: 270px;
     object-fit: cover;
+}
+.over-icon{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: -650px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.recuperacion-icon{
+    left:110px;
+}
+.meditacion-icon{
+    left: 425px;
+}
+.bi-moon-stars-fill{
+    font-size: 45px;
+    text-align: center;
+    right: 460px;
+}
+.alivio-icon{
+    right: 140px;
+}
+.alivio-info{
+    margin-left: 5px;
 }
 /* productos  */
 /* header  */
@@ -249,7 +294,7 @@
     flex-direction: column;
 }
 .rest-description-container h3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 800;
     margin: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -289,8 +334,8 @@
     margin: 5px;
     font-size: 16px;
 }
-.rest-description-container h3{
-    font-size: 20px;
+.sports-description-container h3{
+    font-size: 25px;
     font-weight: 800;
     margin: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -407,4 +452,8 @@ footer{
 }
 .bi:hover{
     color: #0d6efd;
+}
+/* hover para los links de los navs */
+nav a:hover{
+    color: #ccc;
 }
