@@ -5,29 +5,14 @@
 }
 /* inicio  */
 /* header */
-.nav-inicio{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
-}
-.nav-inicio ul{
-    list-style:none;
-    order: 3;
-    align-self: center;
-}
-.nav-inicio li { 
-    padding: 5px;
-    display: inline;
-}
-.nav-inicio a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 30px;
+.nav-link{
+    color:#000;
+    font-size: 20px;
     font-weight: bold;
 }
-.nav-inicio img{
+.navbar-brand img{
     height: 130px;
-    width: 130px;
+    width: 150px;
 }
 /* main  */
 .mainInicio{
@@ -96,7 +81,7 @@
     height: 70px;
     width: 70px;
     position: absolute;
-    bottom: -650px;
+    bottom: -680px;
     background-color: #fff;
     border-radius: 50%;
 }
@@ -119,30 +104,6 @@
 }
 /* productos  */
 /* header  */
-.nav-productos{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
-}
-.nav-productos ul{
-    order: 3;
-    list-style: none;
-    align-self: center;
-}
-.nav-productos li {
-    display: inline;
-    padding: 5px;
-}
-.nav-productos a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-.nav-productos img{
-    height: 130px;
-    width: 130px;
-}
 /* main  */
 .products-main{
     background-color: #83baed;
@@ -180,29 +141,8 @@
 }
 /* sobre nosotros  */
 /* header */
-.nav-about{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
-}
-.nav-about ul{
-    order: 3;
-    list-style: none;
-    align-self: center;
-}
-.nav-about li {
-    display: inline;
-    padding: 5px;
-}
-.nav-about a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-.nav-about img{
-    height: 130px;
-    width: 130px;
+.aboutNav{
+    background-color: #fff;
 }
 /* main  */
 .bodyAbout{
@@ -243,32 +183,8 @@
 }
 /* blog  */
 /* header  */
-.nav-blog{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
-}
-.nav-blog ul{
-    order: 3;
-    list-style: none;
-    align-self: center;
-}
-.nav-blog li {
-    display: inline;
-    padding: 5px;
-}
-.nav-blog a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-.nav-blog img{
-    height: 130px;
-    width: 130px;
-}
 /* main  */
-.body-blog{
+.main-blog{
     background-color: rgba(145, 79, 245, 0.706);
 }
 .title-blog-container{
@@ -343,30 +259,6 @@
 }
  /* contacto  */
 /* header */
-.nav-contacto{
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
-}
-.nav-contacto ul{
-    order: 3;
-    list-style: none;
-    align-self: center;
-}
-.nav-contacto li {
-    display: inline;
-    padding: 5px;
-}
-.nav-contacto a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-.nav-contacto img{
-    height: 130px;
-    width: 130px;
-}
 /* main  */
 .title-contact-container{
     background-color: #0b72a6;
@@ -379,7 +271,7 @@
     padding-top: 100px;
     height: 300px;
 }
-.contact-body{
+.contact-main{
     background-color: #ccc;
 }
 .formulario{
@@ -433,7 +325,7 @@
 }
 /* footer */
 footer{
-    background-color: #0a0b0c;
+    background-color: #000;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px;
@@ -454,6 +346,6 @@ footer{
     color: #0d6efd;
 }
 /* hover para los links de los navs */
-nav a:hover{
-    color: #ccc;
+.nav-link:hover{
+    color: #56bde2;
 }
