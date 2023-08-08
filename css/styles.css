@@ -465,6 +465,33 @@ footer{
     .title-about-container p{
         font-size: 20px;
     }
+    .aboutUsPContainer{
+        gap: 15px;
+    }
+}
+@media screen and (max-width:516px){
+    .lateral-about img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:450px){
+    .title-about-container h1{
+        font-size: 50px;
+    }
+    .title-about-container p{
+        font-size: 15px;
+    }
+    .aboutUsPContainer{
+        gap: 15px;
+    }
+}
+@media screen and (max-width:416px){
+    .lateral-about img{
+        width: 350px;
+    }
+    .aboutUsPContainer{
+        gap: 15px;
+    }
 }
 /* mediaqueries Blog */
 /* mediaqueries Contacto */
