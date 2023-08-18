@@ -22,7 +22,7 @@
     background-color: #9dc0e0;
 }
 .title-inicio-container{
-    background-image: url(../images/fondo\ de\ falopa.avif);
+    background-image: url(../images/fondo\ de\ falopa\ \(1\).png);
     opacity: 0.9;
 }
 .title-inicio-container h1{
@@ -269,6 +269,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 5px;
 }
+#carouselExampleAutoplaying{
+    height: 500px;
+    width: 500px;
+}
  /* contacto  */
 /* header */
 /* main  */
@@ -393,6 +397,16 @@ footer{
         font-size: 80px;
     }
 }
+@media screen and (max-width: 400px){
+    .title-products-container h1{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width:350px){
+    .products_body{
+        width: 100%;
+    }
+}
 /* mediaqueries Sobre nosotros */
 @media screen and (max-width: 1050px){
     .aboutUs p{
@@ -494,4 +508,14 @@ footer{
     }
 }
 /* mediaqueries Blog */
+@media screen and (max-width:900px){
+    .blog-rest{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:650px){
+    .blog-sports{
+        flex-direction: column;
+    }
+}
 /* mediaqueries Contacto */
