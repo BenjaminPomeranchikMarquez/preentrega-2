@@ -1,0 +1,26 @@
+.navbar{
+    width: 100%;
+    img{
+        height: 130px;
+        width: 150px;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+.nav-link{
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+    background-image: linear-gradient(to left,#9253c8,#1774ae);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 4px;
+    &:hover{
+        color: #56bde2;
+        background-image: linear-gradient(to left,#9253c8,#1774ae);
+        background-size: 100% 4px;
+    }
+}

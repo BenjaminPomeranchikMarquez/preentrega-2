@@ -1,0 +1,81 @@
+.mainInicio{
+    background-color: #9dc0e0;
+}
+.title-inicio-container{
+    background-image: url(../images/fondo\ de\ falopa\ \(1\).png);
+    opacity: 0.9;
+    height: 300px;
+    @include flex(column,center,center);
+    h1{
+        font-size: $title-font-size;
+        font-weight: bold;
+        color: $text-color-primary;
+    }
+}
+
+.materiales{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 3em;
+    img{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    div{
+        @include flex(column,center,flex-start);
+        text-align: center;
+        padding: 3em 0;
+    }
+}
+
+.utilidad{
+    width: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a4d4f4;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    h2{
+        font-weight: bold;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.back-img{
+    height: 400px;
+    width: 270px;
+    object-fit: cover;
+    margin: 5%;
+}
+.over-icon{
+    height: 70px;
+    width: 70px;;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: .3s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.bi-moon-stars-fill{
+    font-size: 45px;
+    text-align: center;
+    &:hover{
+        font-size: 46px;
+    }
+}

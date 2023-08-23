@@ -1,0 +1,46 @@
+.mainAbout{
+    background-color: #a0f5f7;
+}
+.title-about-container{
+    background-color: #60cbde;
+    height: 300px;
+    @include flex(column,center,center);
+    h1{
+        font-size: $title-font-size;
+        font-weight: bold;
+        color: $text-color-primary;
+    }
+    p{
+        color: $text-color-primary;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.about-body{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    &-lateral{
+        img{
+            width: 500px;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &-us{
+        color: #000;
+    p{
+        font-size: 20px;
+        margin: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h2{
+        font-size: 40px;
+        margin: 30px;
+    }
+    &-p-container{
+        p:first-child{
+            font-weight: bold;
+        }
+    }
+    }
+}

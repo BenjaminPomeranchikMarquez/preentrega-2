@@ -1,0 +1,16 @@
+// @import base
+@import "base/reset";
+@import "base/utilities";
+@import "base/vars";
+
+// @import components
+@import "components/navbar";
+@import "components/footer";
+
+// @import layout
+@import "layout/index";
+@import "layout/productos";
+@import "layout/sobre-nosotros";
+@import "layout/blog";
+@import "layout/contacto";
+@import "layout/mediaqueries";

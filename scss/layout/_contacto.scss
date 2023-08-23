@@ -1,0 +1,85 @@
+.title-contact-container{
+    background-color: #0b72a6;
+    @include flex(column,center,center);
+    height: 300px;
+    h1{
+        font-size: $title-font-size;
+        font-weight: bold;
+        color: $text-color-primary;
+    }
+}
+.contact-main{
+    height: 100%;
+    width: 100%;
+    &-section{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        width: 800px;
+        height: 450px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 10px #636262;
+        margin: 50px auto;
+    }
+}
+.formulario{
+    div{
+        margin: 0 0 30px 20px;
+    }
+    h2{
+        text-align: center;
+    }
+    label{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input,textarea{
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 1px solid #0b72a6;
+        width: 90%;
+    }
+}
+.lateral-more-info{
+    background-color: #000;
+    border-radius: 0 10px 10px 0;
+    @include flex (row,flex-start,space-between);
+    flex-wrap: wrap;
+    transition: .3s;
+    div{
+        color: $text-color-primary;
+        font-size: 16px;
+    }
+    i{
+        font-size: 50px;
+    }
+    iframe{
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:  50px;
+        &:hover{
+            transform: scale(1.03);
+        }
+    }
+}
+.contact-info-container{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    text-align: center;
+}
+.contact-button{
+    border: none;
+    border-radius: 10px;
+    background-color: #6897cc;
+    height: 35px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 30%;
+    margin-left: 20px;
+    &:hover{
+        background-color: #443b88;
+        color: $text-color-primary;
+        box-shadow: 0 0 10px 5px #6e44d7;
+    }
+}
