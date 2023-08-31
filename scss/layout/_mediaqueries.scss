@@ -10,7 +10,7 @@
 @media screen and (max-width:920px){
     .title-inicio-container{
         h1{
-            font-size: 70px;
+            font-size: 75px;
         }
     }
     .utilidad{
@@ -24,18 +24,16 @@
      }
 }
 @media screen and (max-width:700px){
+    .title-inicio-container h1{
+        font-size: 53px;
+    }
     .materiales{
         p{
             font-weight: 400;
         }
     }
 }
-@media screen and (max-width:630px){
-    .title-inicio-container{
-        h1{
-            font-size: 50px;
-        }
-    }
+@media screen and (max-width:650px){
     .materiales{
         gap: 1em;
         h2{
@@ -47,6 +45,9 @@
     }
 }
 @media screen and (max-width:500px){
+    .title-inicio-container h1{
+        font-size: 47px;
+    }
     .materiales{
         display: flex;
         flex-direction: column;
@@ -55,7 +56,7 @@
 @media screen and (max-width:460px){
     .title-inicio-container{
     h1{
-        font-size: 32px;
+        font-size: 35px;
     }
 }
     .utilidad{
@@ -117,6 +118,9 @@
     }
 }
 @media screen and (max-width:850px) {
+    .title-about-container h1{
+        font-size: 90px;
+    }
     .about-body{
         display: flex;
         flex-direction: column;
@@ -163,7 +167,7 @@
 }
 @media screen and (max-width:730px) {
     .title-about-container h1{
-        font-size: 80px;
+        font-size: 77px;
     }
     .bout-body-us-p-container p{
         gap: 20px;
@@ -172,7 +176,7 @@
 @media screen and (max-width:600px) {
     .title-about-container {
         h1{
-            font-size: 60px;
+            font-size: 57px;
         }
         p{
             font-size: 20px;
@@ -335,7 +339,6 @@
         @include flex(column,center,center);
     }
     .lateral-more-info{
-        @include img (100%,70%,cover,0 0 10px 10px);
         iframe{
             @include img (200px,200px,cover,10px);
             margin-left: 75px;
@@ -352,11 +355,10 @@
         }
     }
     .contact-main-section{
-        @include img (300px,70%,cover,0 0 10px 10px);
+        @include img (300px,70%,cover,10px);
         @include flex(column,center,center);
     }
     .lateral-more-info{
-        @include img (100%,70%,cover,0 0 10px 10px);
         iframe{
             @include img (200px,200px,cover,10px);
             margin-left: 50px;
@@ -365,11 +367,10 @@
 }
 @media screen and (max-width:320px){
     .contact-main-section{
-        @include img (100%,70%,cover,0 0 10px 10px);
+        @include img (100%,70%,cover,10px);
         @include flex(column,center,center);
     }
     .lateral-more-info{
-        @include img (100%,70%,cover,0 0 10px 10px);
         iframe{
             @include img (50%,200px,cover,10px);
             margin-left: 25%;
