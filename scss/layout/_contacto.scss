@@ -1,24 +1,23 @@
+.contact-body{
+    background-color: $primary-color;
+}
 .title-contact-container{
-    background-color: #0b72a6;
+    background-color: $title-container-color;
     @include flex(column,center,center);
     height: 300px;
     h1{
-        font-size: $title-font-size;
-        font-weight: bold;
-        color: $text-color-primary;
+        @include font (bold,$title-font-size,$text-color-primary,Arial);
     }
 }
 .contact-main{
     height: 100%;
     width: 100%;
     &-section{
-        display: grid;
-        grid-template-columns: repeat(2,50%);
-        width: 800px;
-        height: 450px;
-        border-radius: 10px;
+        @include grid (repeat(2,50%),0);
+        @include img (800px,450px,cover,10px);
         box-shadow: 1px 1px 10px 10px #636262;
         margin: 50px auto;
+        background-color: $text-color-primary;
     }
 }
 .formulario{
@@ -29,8 +28,7 @@
         text-align: center;
     }
     label{
-        font-size: 20px;
-        font-weight: bold;
+        @include font (bold,20px,#000,Arial);
     }
     input,textarea{
         border: none;
@@ -41,22 +39,19 @@
     }
 }
 .lateral-more-info{
-    background-color: #000;
+    background-color: #45CFDD;
     border-radius: 0 10px 10px 0;
     @include flex (row,flex-start,space-between);
     flex-wrap: wrap;
     transition: .3s;
     div{
-        color: $text-color-primary;
-        font-size: 16px;
+        @include font (100,16px,$text-color-primary,Arial);
     }
     i{
         font-size: 50px;
     }
     iframe{
-        height: 300px;
-        width: 300px;
-        border-radius: 10px;
+        @include img (300px,300px,cover,10px);
         margin-left:  50px;
         &:hover{
             transform: scale(1.03);
@@ -64,22 +59,18 @@
     }
 }
 .contact-info-container{
-    display: grid;
-    grid-template-columns: repeat(3,33%);
+    @include grid (repeat(3,33%),0);
     text-align: center;
 }
 .contact-button{
     border: none;
-    border-radius: 10px;
     background-color: #6897cc;
-    height: 35px;
-    font-weight: 600;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 30%;
+    @include img (30%,35px,cover,10px);
+    @include font (600,18px,#000,'Trebuchet MS');
     margin-left: 20px;
     &:hover{
-        background-color: #443b88;
+        background-color: #3bbecc;
         color: $text-color-primary;
-        box-shadow: 0 0 10px 5px #6e44d7;
+        box-shadow: 0 0 10px 5px #8fd7d1;
     }
 }

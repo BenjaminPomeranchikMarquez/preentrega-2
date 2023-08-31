@@ -2,25 +2,18 @@
     background-color: #C1ECE4;
 }
 .title-blog-container{
-    background-color: #000;
+    background-color: $title-container-color;
     @include flex(column,center,center);
     height: 300px;
     h1{
-        font-size: $title-font-size;
-        font-weight: bold;
-        color: $text-color-primary;
-        font-family: Arial, Helvetica, sans-serif;
+        @include font (bold,$title-font-size,$text-color-primary,Arial);
     }
     h2{
-        font-size: 50px;
-        font-weight: 900;
-        font-family: 'Times New Roman', Times, serif;
-        color: $text-color-primary;
+        @include font (900,50px,$text-color-primary,'Times New Roman');
     }
 }
 .section-blog{
-    display: grid;
-    grid-template-columns: repeat(2,50%);
+    @include grid (repeat(2,50%),0);
 }
 .lateral-blog{
     @include flex(column,center,space-between);
@@ -29,10 +22,7 @@
     display: flex;
     flex-direction: row;
     img{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    border-radius: 50%;
+    @include img (200px,200px,cover,50%);
     transition: .3s;
     &:hover{
         transform: scale(1.05);
@@ -40,12 +30,10 @@
     }
     }
 }
-.rest-description-container{
+.description-container{
     flex-direction: column;
     h3{
-        font-size: 25px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: 800;
+        @include font (800,25px,#000,Georgia);
         margin: 5px;
     }
     p{
@@ -58,6 +46,5 @@
     @extend .blog-rest;
 }
 #carouselExampleAutoplaying{
-    width: 620px;
-    height: 620px;
+    @include img (620px,620px,cover,0);
 }

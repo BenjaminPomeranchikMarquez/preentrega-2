@@ -1,40 +1,32 @@
 .mainAbout{
-    background-color: #a0f5f7;
+    background-color: $primary-color;
 }
 .title-about-container{
-    background-color: #60cbde;
+    background-color: $title-container-color;
     height: 300px;
     @include flex(column,center,center);
     h1{
-        font-size: $title-font-size;
-        font-weight: bold;
-        color: $text-color-primary;
+        @include font (bold,$title-font-size,$text-color-primary,Arial);
     }
     p{
-        color: $text-color-primary;
-        font-size: 30px;
+        @include font (100,30px,$text-color-primary,Arial);
         text-align: center;
     }
 }
 .about-body{
-    display: grid;
-    grid-template-columns: repeat(2,50%);
+    @include grid (repeat(2,50%),0);
     &-lateral{
         img{
-            width: 500px;
-            height: 100%;
-            object-fit: cover;
+            @include img (500px,100%,cover,0);
         }
     }
     &-us{
-        color: #000;
     p{
-        font-size: 20px;
         margin: 30px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        @include font (100,20px,#000,Georgia);
     }
     h2{
-        font-size: 40px;
+        @include font (100,40px,#000,Georgia);
         margin: 30px;
     }
     &-p-container{

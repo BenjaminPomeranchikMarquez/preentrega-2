@@ -1,5 +1,5 @@
 .mainInicio{
-    background-color: #9dc0e0;
+    background-color:  #8dbee6;
 }
 .title-inicio-container{
     background-image: url(../images/fondo\ de\ falopa\ \(1\).png);
@@ -7,26 +7,17 @@
     height: 300px;
     @include flex(column,center,center);
     h1{
-        font-size: $title-font-size;
-        font-weight: bold;
-        color: $text-color-primary;
+        @include font (bold,$title-font-size,$text-color-primary,Arial);
     }
 }
 
 .materiales{
     width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: grid;
-    grid-template-columns: repeat(3,30%);
-    gap: 3em;
+    @include font (bold,20px,#000,Georgia);
+    @include grid (repeat(3,30%),3em);
     img{
-        height: 100px;
-        width: 100px;
-        object-fit: cover;
-        border-radius: 50%;
-        background-color: #fff;
+        @include img (100px,100px,cover,50%);
+        background-color: $text-color-primary;
         transition: .3s;
         &:hover{
             transform: scale(1.1);
@@ -36,16 +27,18 @@
         @include flex(column,center,flex-start);
         text-align: center;
         padding: 3em 0;
+        margin: 15px;
+        background-color: #caf6ca;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 2px #000;
     }
 }
 
 .utilidad{
     width: 100%;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #a4d4f4;
-    display: grid;
-    grid-template-columns: repeat(4,25%);
+    @include font (100,16px,#000,Georgia);
+    background-color:  $primary-color;
+    @include grid (repeat(4,25%),0);
     h2{
         font-weight: bold;
         text-align: center;
@@ -56,16 +49,12 @@
     }
 }
 .back-img{
-    height: 400px;
-    width: 270px;
-    object-fit: cover;
+    @include img (270px,400px,cover,0);
     margin: 5%;
 }
 .over-icon{
-    height: 70px;
-    width: 70px;;
-    background-color: #fff;
-    border-radius: 50%;
+    @include img (70px,70px,cover,50%);
+    background-color: $text-color-primary;
     margin: 0 auto;
     transition: .3s;
     &:hover{

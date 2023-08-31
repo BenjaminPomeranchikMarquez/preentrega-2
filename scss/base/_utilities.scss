@@ -4,3 +4,20 @@
     align-items: $align;
     justify-content: $justify;
 }
+@mixin grid($columns,$gap){
+    display: grid;
+    grid-template-columns: $columns;
+    gap: $gap;
+}
+@mixin font ($weight,$size,$color,$family){
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+    font-family: $family;
+}
+@mixin img ($width,$height,$object,$radius){
+    width: $width;
+    height: $height;
+    object-fit: $object;
+    border-radius: $radius;
+}
